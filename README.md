@@ -1,7 +1,14 @@
 # awesome-tinygo
 A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
-Contributing: For now just pull request. There is no guidelines or requirements one has to meet to be added though it would be desirable the project be original.
+**Contributing**: 
+
+* **Issues**. Please add which category you believe fits it best along with the following markdown:
+    ```markdown
+    * [<project name>](<project url>) - <project description>
+    ```
+
+* **Pull requests** There is no guidelines or requirements one has to meet to be added though it would be desirable the project be original.
 
 * [Awesome TinyGo](#awesome-tinygo)
     - [Continuous Integration](#continuous-integration)
