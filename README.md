@@ -43,6 +43,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ## Embedded Systems
 
 * [TinyGo Drivers](https://github.com/tinygo-org/drivers) - Provides a collection of hardware drivers for devices such as sensors and displays that can be used together with TinyGo.
+* [ether-swtch](https://github.com/soypat/ether-swtch) - Low level Ethernet/IP/TCP/HTTP stack marshaller/unmarshaller for use in tiny places.
 
 ## WebAssembly
 ### DOM Manipulation
