@@ -23,6 +23,8 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [Awesome TinyGo Creations](#awesome-projects)
    - [LED controllers](#led-controllers)
 
+* [Awesome Libraries](#awesome-libraries)
+
 * [Resources](#resources)
     - [Websites](#websites)
         - [TinyGo Community](#tinygo-community)    
@@ -63,6 +65,12 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ## LED controllers
 
 * [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube. 
+
+# Awesome Libraries
+**Packages that make life easier or more awesome in TinyGo**
+
+* [`math32`](https://github.com/chewxy/math32) - 32bit math functions in pure Go.
+* [`mathgl`](https://github.com/go-gl/mathgl) - A pure Go 3D math library.
 
 # Resources
 
