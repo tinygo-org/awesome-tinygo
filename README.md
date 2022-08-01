@@ -71,6 +71,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 * [`math32`](https://github.com/chewxy/math32) - 32bit math functions in pure Go.
 * [`mathgl`](https://github.com/go-gl/mathgl) - A pure Go 3D math library.
+* [`lap`](https://github.com/soypat/lap) - Extremely lightweight linear algebra package similar to gonum.
 
 # Resources
 
