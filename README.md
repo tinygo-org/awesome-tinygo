@@ -40,6 +40,8 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [TinyDraw](https://github.com/tinygo-org/tinydraw) - Draw primitives on TinyGo displays. It is heavily based on the Adafruit GFX library.
 * [TinyFont](https://github.com/tinygo-org/tinyfont) - Font/text package for TinyGo displays. It is heavily based on Adafruit's GFX library.
 * [TinyTerm](https://github.com/tinygo-org/tinyterm) - A minimal terminal for TinyGo devices supporting 256-color ANSI escape codes.
+* [SSD1306 font](https://github.com/Nondzu/ssd1306_font) - Lite SSD1306 OLED font library using TinyGo.
+
 
 
 ## Embedded Systems
