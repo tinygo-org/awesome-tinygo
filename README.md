@@ -13,8 +13,10 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [Awesome TinyGo](#awesome-tinygo)
     - [Continuous Integration](#continuous-integration)
     - [Display Hardware](#display-hardware)
-    - [Embedded Systems](#embeddded-systems)
-
+    - [Embedded Systems](#embedded-systems)
+        - [General use](#general-use)
+        - [Protocol implementations](#protocol-implementations)
+        - [Instrumentation and control with sensors and actuators](#instrumentation-and-control-with-sensors-and-actuators)
     - [WebAssembly](#webassembly)
         - [WebSockets](#websockets)
         - [DOM Manipulation](#dom-manipulation)
@@ -46,8 +48,27 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 ## Embedded Systems
 
+### General use
+* [go-pico](https://github.com/djthorpe/go-pico) - Raspberry Pi RP2040 Pico SDK for golang.
+* [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang
+* [tinyfs](https://github.com/tinygo-org/tinyfs) - Embedded filesystems for TinyGo like FATfs and LittleFS on microcontrollers.
 * [TinyGo Drivers](https://github.com/tinygo-org/drivers) - Provides a collection of hardware drivers for devices such as sensors and displays that can be used together with TinyGo.
+* [bouncer](https://github.com/eyelight/bouncer) - bouncer is a button input handler library supporting press-lengths of different durations, and debouncing.
+
+### Protocol implementations
+* [achicken](https://github.com/soypat/achicken) - Dead-simple serial protocol with CRC for small projects.
 * [ether-swtch](https://github.com/soypat/ether-swtch) - Low level Ethernet/IP/TCP/HTTP stack marshaller/unmarshaller for use in tiny places.
+* [go-canard](https://github.com/soypat/go-canard) - CAN/OpenCyphal implementation in pure Go. Port of libcanard.
+* [natiu-mqtt](https://github.com/soypat/natiu-mqtt) - A dead-simple, extensible MQTT implementation well suited for embedded systems.
+* [peamodbus](https://github.com/soypat/peamodbus) - Fault tolerant, TCP modbus implementation in Go that just works. Apt for embedded systems.
+* [peasocket](https://github.com/soypat/peasocket) - Dead-simple, extensible websocket implementation in Go.
+* [tiny-sproto](https://github.com/soypat/tiny-sproto) - A simple Point-to-Point Protocol implementation written in Go.
+
+### Instrumentation and control with sensors and actuators
+* [fusion](https://github.com/aykevl/fusion) - Sensor fusion algorithms (gyroscope/accelerometer) implemented in pure Go.
+* [magcal](https://github.com/ysoldak/magcal) - (Magical) Magnetometer Calibration
+* [pctl](https://github.com/brandondube/pctl) - "process control" is a package for industrial control in Go. Filtering and control theory algorithms.
+
 
 ## WebAssembly
 ### DOM Manipulation
