@@ -85,9 +85,12 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 # Awesome TinyGo Creations
 **Hardware and software implementations**
+## Miscellaneous Hardware
+* [Arduino Mega Programmer](https://github.com/Gustavomurta/Arduino_Mega_Programmer) - Read ROMs, EPROM, Flash of older computers such as a Commodore C128 ROM chip.
+
 ## LED controllers
 
-* [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube. 
+* [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube.
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
