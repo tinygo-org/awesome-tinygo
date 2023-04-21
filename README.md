@@ -22,8 +22,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
         - [DOM Manipulation](#dom-manipulation)
     - [Wireless Communication](#wireless-communication)
 
-* [Awesome TinyGo Creations](#awesome-projects)
-   - [LED controllers](#led-controllers)
+* [Awesome TinyGo Creations](#awesome-tinygo-creations)
 
 * [Awesome Libraries](#awesome-libraries)
 
@@ -85,12 +84,10 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 # Awesome TinyGo Creations
 **Hardware and software implementations**
-## Miscellaneous Hardware
 * [Arduino Mega Programmer](https://github.com/Gustavomurta/Arduino_Mega_Programmer) - Read ROMs, EPROM, Flash of older computers such as a Commodore C128 ROM chip.
-
-## LED controllers
-
 * [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube.
+* [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
+* [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
