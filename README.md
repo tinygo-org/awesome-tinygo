@@ -88,6 +88,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube.
 * [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
 * [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
+* [USB HID Keyboard firmware for TinyGo](https://github.com/sago35/tinygo-keyboard) - keyboard firmware for tinygo
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
