@@ -89,6 +89,10 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
 * [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
 * [USB HID Keyboard firmware for TinyGo](https://github.com/sago35/tinygo-keyboard) - keyboard firmware for tinygo
+* [Gopherbot](https://github.com/hybridgroup/gopherbot) - A robotic gopher plushie that you can code using TinyGo
+* [Gobadge](https://github.com/tinygo-org/gobadge) - TinyGo powered badge using Adafruit Pybadge Hardware
+* [TinyGlobo](https://github.com/hybridgroup/tinyglobo) - A pico balloon floats into the great big world, towing a RP2040 Pico programmed with TinyGo using LoraWAN to communicate along the way.
+
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
