@@ -89,6 +89,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
 * [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
 * [USB HID Keyboard firmware for TinyGo](https://github.com/sago35/tinygo-keyboard) - keyboard firmware for tinygo
+* [FPV Combat Gadget](https://github.com/ysoldak/fpvc-gadget) - [FPV Combat](https://fpv-combat.com/) configurator with display and a rotary encoder (multi-level menu system with input), runs on XIAO.
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
