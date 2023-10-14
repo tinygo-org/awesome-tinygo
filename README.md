@@ -92,7 +92,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [Gopherbot](https://github.com/hybridgroup/gopherbot) - A robotic gopher plushie that you can code using TinyGo
 * [Gobadge](https://github.com/tinygo-org/gobadge) - TinyGo powered badge using Adafruit Pybadge Hardware
 * [TinyGlobo](https://github.com/hybridgroup/tinyglobo) - A pico balloon floats into the great big world, towing a RP2040 Pico programmed with TinyGo using LoraWAN to communicate along the way.
-
+* [FPV Combat Gadget](https://github.com/ysoldak/fpvc-gadget) - [FPV Combat](https://fpv-combat.com/) configurator with display and a rotary encoder (multi-level menu system with input), runs on XIAO.
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
