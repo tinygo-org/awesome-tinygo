@@ -11,12 +11,14 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * **Pull requests** There is no guidelines or requirements one has to meet to be added though it would be desirable the project be original.
 
 * [Awesome TinyGo](#awesome-tinygo)
+    - [Code Editing](#code-editing)
     - [Continuous Integration](#continuous-integration)
     - [Display Hardware](#display-hardware)
     - [Embedded Systems](#embedded-systems)
         - [General use](#general-use)
         - [Protocol implementations](#protocol-implementations)
         - [Instrumentation and control with sensors and actuators](#instrumentation-and-control-with-sensors-and-actuators)
+    - [Gaming](#gaming)
     - [WebAssembly](#webassembly)
         - [WebSockets](#websockets)
         - [DOM Manipulation](#dom-manipulation)
@@ -34,9 +36,16 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 # Awesome TinyGo
 
-## Continuous Integration
+## Code Editing
+* [VSCode](https://github.com/tinygo-org/vscode-tinygo) - TinyGo support for Visual Studio Code.
+* [Goland](https://plugins.jetbrains.com/plugin/16915-tinygo) - TinyGo support for Goland.
+* [Vim](https://github.com/sago35/tinygo.vim) - TinyGo support for Vim/NeoVim.
+* [bash/zsh/clink](https://github.com/sago35/tinygo-autocmpl) - Adds bash/zsh/clink auto-completion to TinyGo.
+* [Display Simulator](https://github.com/sago35/tinydisplay) - `tinydisplay` is a tiny display for TinyGo development.
 
+## Continuous Integration
 * [TinyHCI](https://github.com/tinygo-org/tinyhci) - Test actual hardware connections for microcontrollers. It is intended to provide smoke test implementations that exercise the basic functionality for each kind of hardware interface for each supported microcontroller.
+
 ## Display Hardware
 * [TinyDraw](https://github.com/tinygo-org/tinydraw) - Draw primitives on TinyGo displays. It is heavily based on the Adafruit GFX library.
 * [TinyFont](https://github.com/tinygo-org/tinyfont) - Font/text package for TinyGo displays. It is heavily based on Adafruit's GFX library.
@@ -69,7 +78,13 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [pctl](https://github.com/brandondube/pctl) - "process control" is a package for industrial control in Go. Filtering and control theory algorithms.
 
 
+## Gaming
+* [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
+* [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
+
+
 ## WebAssembly
+
 ### DOM Manipulation
 
 * [TinyDom](https://github.com/Nerzal/tinydom) - DOM manipulation library. For use in WASM
@@ -77,6 +92,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ### WebSockets
 
 * [TinyWebSocket](https://github.com/Nerzal/tinywebsocket) - Wraps the `syscall/js` api to provide a better developer experience, while being compileable by TinyGo
+
 ## Wireless Communication
 
 * [Go Bluetooth](https://github.com/tinygo-org/bluetooth) - Go Bluetooth is a cross-platform package for using Bluetooth Low Energy hardware from the Go programming language.
