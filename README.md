@@ -1,14 +1,14 @@
 # awesome-tinygo
 A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
-**Contributing**: 
+**Contributing**:
 
 * **Issues**. Please add which category you believe fits it best along with the following markdown:
     ```markdown
     * [<project name>](<project url>) - <project description>
     ```
 
-* **Pull requests** There is no guidelines or requirements one has to meet to be added though it would be desirable the project be original.
+* **Pull requests** There are no guidelines or requirements one has to meet to be added though it would be desirable the project be original.
 
 * [Awesome TinyGo](#awesome-tinygo)
     - [Code Editing](#code-editing)
@@ -30,7 +30,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 * [Resources](#resources)
     - [Websites](#websites)
-        - [TinyGo Community](#tinygo-community)    
+        - [TinyGo Community](#tinygo-community)
         - [Tutorials](#tutorials)
 
 
@@ -77,8 +77,8 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [magcal](https://github.com/ysoldak/magcal) - (Magical) Magnetometer Calibration
 * [pctl](https://github.com/brandondube/pctl) - "process control" is a package for industrial control in Go. Filtering and control theory algorithms.
 
-
 ## Gaming
+* [Hunt the Wumpus](https://github.com/smittytone/pi-pico-go.git) - Handheld gaming powered by the Raspberry Pi Pico and TinyGo.
 * [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
 * [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
 
@@ -91,7 +91,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 ### WebSockets
 
-* [TinyWebSocket](https://github.com/Nerzal/tinywebsocket) - Wraps the `syscall/js` api to provide a better developer experience, while being compileable by TinyGo
+* [TinyWebSocket](https://github.com/Nerzal/tinywebsocket) - Wraps the `syscall/js` api to provide a better developer experience, while being compilable by TinyGo
 
 ## Wireless Communication
 
