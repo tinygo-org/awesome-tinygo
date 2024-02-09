@@ -57,19 +57,26 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ## Embedded Systems
 
 ### General use
+* [bouncer](https://github.com/eyelight/bouncer) - bouncer is a button input handler library supporting press-lengths of different durations, and debouncing.
+* [fat](https://github.com/soypat/fat) - Filesystem implementation using the File Allocation Table in pure Go.
+* [go-maquina](https://github.com/soypat/go-maquina) - Finite State Machine (FSM) implementation with simplicity and maintainability in mind using Go generics.
 * [go-pico](https://github.com/djthorpe/go-pico) - Raspberry Pi RP2040 Pico SDK for golang.
-* [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang
+* [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang.
+* [periph/devices](https://github.com/periph/devices) - Device drivers.
+* [schedule](https://github.com/soypat/schedule) - Event-loop scheduling library for synchronizing actions over long periods of time.
 * [tinyfs](https://github.com/tinygo-org/tinyfs) - Embedded filesystems for TinyGo like FATfs and LittleFS on microcontrollers.
 * [TinyGo Drivers](https://github.com/tinygo-org/drivers) - Provides a collection of hardware drivers for devices such as sensors and displays that can be used together with TinyGo.
-* [bouncer](https://github.com/eyelight/bouncer) - bouncer is a button input handler library supporting press-lengths of different durations, and debouncing.
 
 ### Protocol implementations
 * [achicken](https://github.com/soypat/achicken) - Dead-simple serial protocol with CRC for small projects.
 * [ether-swtch](https://github.com/soypat/ether-swtch) - Low level Ethernet/IP/TCP/HTTP stack marshaller/unmarshaller for use in tiny places.
 * [go-canard](https://github.com/soypat/go-canard) - CAN/OpenCyphal implementation in pure Go. Port of libcanard.
+* [gomavlib](https://github.com/bluenviron/gomavlib) - Mavlink protocol (2.0 and 1.0) implementation in Go for control and instrumentation of autonomous vehicles.
+* [mlkem768](https://github.com/FiloSottile/mlkem768) - Quantum-resistant key encapsulation method ML-KEM (formerly known as Kyber) implementation in Go.
 * [natiu-mqtt](https://github.com/soypat/natiu-mqtt) - A dead-simple, extensible MQTT implementation well suited for embedded systems.
 * [peamodbus](https://github.com/soypat/peamodbus) - Fault tolerant, TCP modbus implementation in Go that just works. Apt for embedded systems.
 * [peasocket](https://github.com/soypat/peasocket) - Dead-simple, extensible websocket implementation in Go.
+* [seqs](https://github.com/soypat/seqs) - Networking library for use on microcontrollers. Basically a more featureful LWIP.
 * [tiny-sproto](https://github.com/soypat/tiny-sproto) - A simple Point-to-Point Protocol implementation written in Go.
 
 ### Instrumentation and control with sensors and actuators
@@ -112,10 +119,15 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 
 # Awesome Libraries
 **Packages that make life easier or more awesome in TinyGo**
-
+* [`cbor`](https://github.com/fxamacker/cbor) - Library for encoding and decoding Concise Binary Object Representation data and Sequences (RFC8949).
+* [`cereal`](https://github.com/soypat/cereal) - All-you-need serial device tooling integrating bugst, goburrow, tarm and sers serial libraries.
+* [`float16`](https://github.com/x448/float16) - IEEE 754 half-precision floating-point format (binary16) library.
+* [`godsp`](https://github.com/goccmack/godsp) - Basic digital signal processing functions using the discrete wavelet transform (DWT).
+* [`lap`](https://github.com/soypat/lap) - Extremely lightweight linear algebra package similar to gonum.
 * [`math32`](https://github.com/chewxy/math32) - 32bit math functions in pure Go.
 * [`mathgl`](https://github.com/go-gl/mathgl) - A pure Go 3D math library.
-* [`lap`](https://github.com/soypat/lap) - Extremely lightweight linear algebra package similar to gonum.
+* [`tvd`](https://github.com/soypat/tvd) - Total Variation Denoising filter ideal for capturing edge transitions.
+* [`u-root`](https://github.com/u-root/u-root) - Go versions of many standard Linux tools, such as ls, cp, or shutdown among other awesome OS stuff.
 
 # Resources
 
