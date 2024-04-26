@@ -95,6 +95,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ### DOM Manipulation
 
 * [TinyDom](https://github.com/Nerzal/tinydom) - DOM manipulation library. For use in WASM
+* [GoUI](https://github.com/goui-org/goui) - A web framework for making user interfaces
 
 ### WebSockets
 
