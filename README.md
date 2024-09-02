@@ -88,6 +88,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [Hunt the Wumpus](https://github.com/smittytone/pi-pico-go.git) - Handheld gaming powered by the Raspberry Pi Pico and TinyGo.
 * [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
 * [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
+* [Flapy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
 
 
 ## WebAssembly
