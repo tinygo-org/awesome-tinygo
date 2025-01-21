@@ -89,6 +89,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
 * [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
 * [Flapy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
+* [koebiten](https://github.com/sago35/koebiten) - Koebiten is a 2D game engine that runs on TinyGo. It’s inspired by Ebitengine and is characterized by its simple API.
 
 
 ## WebAssembly
