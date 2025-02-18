@@ -18,10 +18,12 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
         - [General use](#general-use)
         - [Protocol implementations](#protocol-implementations)
         - [Instrumentation and control with sensors and actuators](#instrumentation-and-control-with-sensors-and-actuators)
+    - [Encoders](#encoders)
     - [Gaming](#gaming)
     - [WebAssembly](#webassembly)
         - [WebSockets](#websockets)
         - [DOM Manipulation](#dom-manipulation)
+        - [WASI and WASM Unknown](#wasi-and-wasm-unknown)
     - [Wireless Communication](#wireless-communication)
 
 * [Awesome TinyGo Creations](#awesome-tinygo-creations)
@@ -64,16 +66,19 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [go-pico](https://github.com/djthorpe/go-pico) - Raspberry Pi RP2040 Pico SDK for golang.
 * [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang.
 * [periph/devices](https://github.com/periph/devices) - Device drivers.
+* [pio](https://github.com/tinygo-org/pio) - Programmable I/O API for RP2040/RP2350 using TinyGo
 * [schedule](https://github.com/soypat/schedule) - Event-loop scheduling library for synchronizing actions over long periods of time.
 * [tinyfs](https://github.com/tinygo-org/tinyfs) - Embedded filesystems for TinyGo like FATfs and LittleFS on microcontrollers.
 * [TinyGo Drivers](https://github.com/tinygo-org/drivers) - Provides a collection of hardware drivers for devices such as sensors and displays that can be used together with TinyGo.
 * [tinymath](https://github.com/orsinium-labs/tinymath) - The fastest and smallest Go math library for constrained environments, like microcontrollers or WebAssembly.
-* [pio](https://github.com/tinygo-org/pio) - Programmable I/O API for RP2040/RP2350 using TinyGo
+* [tinytest](https://github.com/orsinium-labs/tinytest) - The only assertion library that works with TinyGo
 
 ### Protocol implementations
 * [achicken](https://github.com/soypat/achicken) - Dead-simple serial protocol with CRC for small projects.
 * [ether-swtch](https://github.com/soypat/ether-swtch) - Low level Ethernet/IP/TCP/HTTP stack marshaller/unmarshaller for use in tiny places.
+* [go-bthome](https://github.com/hybridgroup/go-bthome) - Minimal package for creating and parsing BTHome service data using Go/TinyGo.
 * [go-canard](https://github.com/soypat/go-canard) - CAN/OpenCyphal implementation in pure Go. Port of libcanard.
+* [go-cayenne-lib](https://github.com/TheThingsNetwork/go-cayenne-lib) - CayenneLPP in Go
 * [gomavlib](https://github.com/bluenviron/gomavlib) - Mavlink protocol (2.0 and 1.0) implementation in Go for control and instrumentation of autonomous vehicles.
 * [mlkem768](https://github.com/FiloSottile/mlkem768) - Quantum-resistant key encapsulation method ML-KEM (formerly known as Kyber) implementation in Go.
 * [natiu-mqtt](https://github.com/soypat/natiu-mqtt) - A dead-simple, extensible MQTT implementation well suited for embedded systems.
@@ -81,42 +86,40 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [peasocket](https://github.com/soypat/peasocket) - Dead-simple, extensible websocket implementation in Go.
 * [seqs](https://github.com/soypat/seqs) - Networking library for use on microcontrollers. Basically a more featureful LWIP.
 * [tiny-sproto](https://github.com/soypat/tiny-sproto) - A simple Point-to-Point Protocol implementation written in Go.
-* [go-cayenne-lib](https://github.com/TheThingsNetwork/go-cayenne-lib) - CayenneLPP in Go
-* [go-bthome](https://github.com/hybridgroup/go-bthome) - Minimal package for creating and parsing BTHome service data using Go/TinyGo.
 
 ### Instrumentation and control with sensors and actuators
 * [fusion](https://github.com/aykevl/fusion) - Sensor fusion algorithms (gyroscope/accelerometer) implemented in pure Go.
 * [magcal](https://github.com/ysoldak/magcal) - (Magical) Magnetometer Calibration
 * [pctl](https://github.com/brandondube/pctl) - "process control" is a package for industrial control in Go. Filtering and control theory algorithms.
 
+## Encoders
+* [jsony](https://github.com/orsinium-labs/jsony) - A blazing fast and safe Go package for serializing JSON
+* [protobuf-go-lite](https://github.com/aperturerobotics/protobuf-go-lite) - Reflection-free Protobuf for Go.
+
 ## Gaming
-* [Hunt the Wumpus](https://github.com/smittytone/pi-pico-go.git) - Handheld gaming powered by the Raspberry Pi Pico and TinyGo.
-* [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
-* [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
-* [Flapy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
-* [koebiten](https://github.com/sago35/koebiten) - Koebiten is a 2D game engine that runs on TinyGo. It’s inspired by Ebitengine and is characterized by its simple API.
 * [firefly-go](https://github.com/firefly-zero/firefly-go) - Go SDK for making Firefly Zero games
+* [Flapy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
+* [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
+* [Hunt the Wumpus](https://github.com/smittytone/pi-pico-go.git) - Handheld gaming powered by the Raspberry Pi Pico and TinyGo.
+* [koebiten](https://github.com/sago35/koebiten) - Koebiten is a 2D game engine that runs on TinyGo. It’s inspired by Ebitengine and is characterized by its simple API.
+* [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
+* [wasm4go](https://github.com/orsinium-labs/wasm4go) - Framework for making WASM-4 games with Go (and TinyGo).
 
 ## WebAssembly
 
 ### DOM Manipulation
-
 * [TinyDom](https://github.com/Nerzal/tinydom) - DOM manipulation library. For use in WASM
 * [GoUI](https://github.com/goui-org/goui) - A web framework for making user interfaces
 
 ### WebSockets
-
 * [TinyWebSocket](https://github.com/Nerzal/tinywebsocket) - Wraps the `syscall/js` api to provide a better developer experience, while being compilable by TinyGo
 
 ### WASI and WASM Unknown
-
 * [go-modules](https://github.com/bytecodealliance/go-modules) - WebAssembly, WASI, and Component Model tools for Go
-* [jsony](https://github.com/orsinium-labs/jsony) - A blazing fast and safe Go package for serializing JSON
-* [wypes](https://github.com/orsinium-labs/wypes) - Go library to define type-safe host functions in wazero and other WebAssembly runtimes.
 * [wasmCV](https://github.com/wasmvision/go-wasmcv) - Go bindings for wasmCV computer vision interfaces using WebAssembly.
+* [wypes](https://github.com/orsinium-labs/wypes) - Go library to define type-safe host functions in wazero and other WebAssembly runtimes.
 
 ## Wireless Communication
-
 * [Go Bluetooth](https://github.com/tinygo-org/bluetooth) - Go Bluetooth is a cross-platform package for using Bluetooth Low Energy hardware from the Go programming language.
 * [lorawan](https://github.com/tinygo-org/drivers/tree/release/lora/lorawan) - LoRaWAN implementation for embedded devices using TinyGo.
 
