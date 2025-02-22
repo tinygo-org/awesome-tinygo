@@ -52,7 +52,8 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ## Display Hardware
 * [TinyDraw](https://github.com/tinygo-org/tinydraw) - Draw primitives on TinyGo displays. It is heavily based on the Adafruit GFX library.
 * [TinyFont](https://github.com/tinygo-org/tinyfont) - Font/text package for TinyGo displays. It is heavily based on Adafruit's GFX library.
-* [TinyTerm](https://github.com/tinygo-org/tinyterm) - A minimal terminal for TinyGo devices supporting 256-color ANSI escape codes.
+* [tinygl](https://github.com/aykevl/tinygl) - The fastest and smallest Go math library for constrained environments, like microcontrollers or WebAssembly.
+* [TinyTerm](https://github.com/tinygo-org/tinyterm) - Tiny graphics library for SPI connected displays.
 * [SSD1306 font](https://github.com/Nondzu/ssd1306_font) - Lite SSD1306 OLED font library using TinyGo.
 
 
@@ -93,16 +94,20 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [pctl](https://github.com/brandondube/pctl) - "process control" is a package for industrial control in Go. Filtering and control theory algorithms.
 
 ## Encoders
+* [easyjson](https://github.com/mailru/easyjson) - Fast JSON serializer for golang.
+* [gjson](https://github.com/tidwall/gjson) - Get JSON values quickly - JSON parser for Go
 * [jsony](https://github.com/orsinium-labs/jsony) - A blazing fast and safe Go package for serializing JSON
 * [protobuf-go-lite](https://github.com/aperturerobotics/protobuf-go-lite) - Reflection-free Protobuf for Go.
 
 ## Gaming
 * [firefly-go](https://github.com/firefly-zero/firefly-go) - Go SDK for making Firefly Zero games
-* [Flapy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
+* [Flappy Boot](https://github.com/bjatkin/flappy-boot) - clone of flappy bird for the GBA written using TinyGo.
+* [ghost-castle](https://github.com/deadprogram/ghost-castle) - Simple roguelike game written using TinyGo with TinyRogue on Firefly Zero
 * [gonx](https://github.com/racerxdl/gonx) - Wrapper around libnx for developing Nintendo Switch programs using TinyGo.
 * [Hunt the Wumpus](https://github.com/smittytone/pi-pico-go.git) - Handheld gaming powered by the Raspberry Pi Pico and TinyGo.
-* [koebiten](https://github.com/sago35/koebiten) - Koebiten is a 2D game engine that runs on TinyGo. It’s inspired by Ebitengine and is characterized by its simple API.
+* [koebiten](https://github.com/sago35/koebiten) - Koebiten is a 2D game engine that runs on TinyGo. Inspired by Ebitengine and is characterized by its simple API.
 * [tinygba](https://github.com/tinygo-org/tinygba) - Tools and helpers for developing GBA programs using TinyGo.
+* [tinyrogue](https://github.com/deadprogram/tinyrogue) - Fun package for creating roguelike games with TinyGo on Firefly Zero using WASM
 * [wasm4go](https://github.com/orsinium-labs/wasm4go) - Framework for making WASM-4 games with Go (and TinyGo).
 
 ## WebAssembly
@@ -126,17 +131,18 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 # Awesome TinyGo Creations
 **Hardware and software implementations**
 * [Arduino Mega Programmer](https://github.com/Gustavomurta/Arduino_Mega_Programmer) - Read ROMs, EPROM, Flash of older computers such as a Commodore C128 ROM chip.
-* [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube.
-* [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
-* [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
-* [USB HID Keyboard firmware for TinyGo](https://github.com/sago35/tinygo-keyboard) - keyboard firmware for tinygo
-* [Gopherbot](https://github.com/hybridgroup/gopherbot) - A robotic gopher plushie that you can code using TinyGo
-* [Gobadge](https://github.com/tinygo-org/gobadge) - TinyGo powered badge using Adafruit Pybadge Hardware
-* [TinyGlobo](https://github.com/hybridgroup/tinyglobo) - A pico balloon floats into the great big world, towing a RP2040 Pico programmed with TinyGo using LoraWAN to communicate along the way.
 * [FPV Combat Gadget](https://github.com/ysoldak/fpvc-gadget) - [FPV Combat](https://fpv-combat.com/) configurator with display and a rotary encoder (multi-level menu system with input), runs on XIAO.
+* [go-haystack](https://github.com/hybridgroup/go-haystack) - Track personal Bluetooth devices via Apple's "Find My" network using OpenHaystack and Macless-Haystack with tools written in Go/TinyGo. No Apple hardware required!
+* [Gobadge](https://github.com/tinygo-org/gobadge) - TinyGo powered badge using Adafruit Pybadge Hardware
 * [gopher-board](https://github.com/sat0ken/gopher-board) - Original board with Gopher design for Waveshare RP2040-Zero and XIAO.
 * [gopher.pretty](https://github.com/sat0ken/gopher.pretty) - Kicad footprint file of Gopher design. Lets you make your own board.
-* [go-haystack](https://github.com/hybridgroup/go-haystack) - Track personal Bluetooth devices via Apple's "Find My" network using OpenHaystack and Macless-Haystack with tools written in Go/TinyGo. No Apple hardware required!
+* [Gopherbot](https://github.com/hybridgroup/gopherbot) - A robotic gopher plushie that you can code using TinyGo
+* [HeadTracker](https://github.com/ysoldak/HeadTracker) - Bluetooth DIY Head Tracker, for Nano 33 BLE and XIAO BLE Sense boards.
+* [LED Cube](https://github.com/tinygo-org/things/tree/master/ledcube) - 6x32x32 LED cube, inspired by a LED cube I've seen at CCC and the SquareWave Dot cube.
+* [ledrace](https://github.com/conejoninja/ledrace) - TinyGo implementation of Open LED Race
+* [RC PWM to RGB LED](https://github.com/ysoldak/pwm-ws2812) - WS2812 LED strip color and brightness control with two RC PWM channels
+* [TinyGlobo](https://github.com/hybridgroup/tinyglobo) - A pico balloon floats into the great big world, towing a RP2040 Pico programmed with TinyGo using LoraWAN to communicate along the way.
+* [USB HID Keyboard firmware for TinyGo](https://github.com/sago35/tinygo-keyboard) - keyboard firmware for tinygo
 * [wasmVision](https://github.com/wasmvision/wasmvision) - wasmVision gets you going with computer vision using WebAssembly with processors written using TinyGo/Rust/C.
 
 
