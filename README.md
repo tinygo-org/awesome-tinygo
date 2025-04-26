@@ -149,6 +149,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [`lap`](https://github.com/soypat/lap) - Extremely lightweight linear algebra package similar to gonum.
 * [`math32`](https://github.com/chewxy/math32) - 32bit math functions in pure Go.
 * [`mathgl`](https://github.com/go-gl/mathgl) - A pure Go 3D math library.
+* [`tinystring`](https://github.com/cdvelop/tinystring) - Lightweight text manipulation library with a fluid API and no external dependencies.
 * [`tvd`](https://github.com/soypat/tvd) - Total Variation Denoising filter ideal for capturing edge transitions.
 * [`u-root`](https://github.com/u-root/u-root) - Go versions of many standard Linux tools, such as ls, cp, or shutdown among other awesome OS stuff.
 
