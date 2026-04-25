@@ -44,6 +44,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 * [Vim](https://github.com/sago35/tinygo.vim) - TinyGo support for Vim/NeoVim.
 * [bash/zsh/clink](https://github.com/sago35/tinygo-autocmpl) - Adds bash/zsh/clink auto-completion to TinyGo.
 * [Display Simulator](https://github.com/sago35/tinydisplay) - `tinydisplay` is a tiny display for TinyGo development.
+* [VSCode Plugin](https://github.com/amken3d/tinygo-toolkit) - A comprehensive TinyGo development environment for VS Code with SDK management, target selection, board browser, driver explorer, build tools, and serial monitor
 
 ## Continuous Integration
 * [setup-tinygo](https://github.com/marketplace/actions/setup-tinygo) - Sets up a TinyGo environment for GitHub Actions.
