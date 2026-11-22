@@ -171,3 +171,5 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ### Tutorials
 
 * [Blinky tutorial](https://github.com/tinygo-org/tinygo-site/blob/379c887947063e08bc9547a034b7ced68ab30628/content/getting-started/blinky.md) - A tutorial to get familiar with TinyGo basics.
+* [Espressif TinyGo Embedded Workshop](https://developer.espressif.com/workshops/tinygo/) - Hands-on workshop for TinyGo on ESP32 microcontrollers covering GPIO, displays, sensors, Wi-Fi and edge AI.
+* [TinyGo Seeed Grove](https://github.com/soypat/tinygo-seeed-grove) - Step by step guide, drivers and examples for the Seeed Studio Grove modules and the TinyGo XIAO Starter Kit.
