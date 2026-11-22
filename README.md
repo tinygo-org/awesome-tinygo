@@ -128,6 +128,7 @@ A curated list of awesome TinyGo projects. Inspired by [awesome-go](https://gith
 ## Wireless Communication
 * [Go Bluetooth](https://github.com/tinygo-org/bluetooth) - Go Bluetooth is a cross-platform package for using Bluetooth Low Energy hardware from the Go programming language.
 * [lorawan](https://github.com/tinygo-org/drivers/tree/release/lora/lorawan) - LoRaWAN implementation for embedded devices using TinyGo.
+* [WSPR in TinyGo](https://github.com/tdunning/go-wspr) - A WSPR implementation that uses RP2040 capabilities like DMA and the PIO to measure and control frequencies to high precision to encode and drive WSPR signals.
 
 # Awesome TinyGo Creations
 **Hardware and software implementations**
